@@ -43,17 +43,39 @@ No Values assigned? Dont worry, it will take the default value for the mentioned
 var [varname] [datatype] = [value of datatype]
 ```
 
+**Multiple Variables**
+```go
+var [varname1], [varname2], ...., [varnameN] [datatype]
+```
 
 ***ALTERNATES !***
 
 A. IF YOU ARE DECLARING AND DEFINING AT THE SAME TIME, NEED NOT STATE THE DATATYPE
 ```go
-    var [varname] = [data of datatype]
+var [varname] = [data of datatype]
 ```
 
 B. SHORTHAND PROPERTY
 
 ```go
-    [varname] := [data of datatype]
+[varname] := [data of datatype]
 ```
+### DataTypes in GoLang
+**DEFINITION:**
+*Do you literally need a definition for this?*
 
+|Datatype CodeName|DataType |GoLang Types |
+|--------|--------|-------|
+|`int` | Integer| `int` / `uint`(General-32 bits), `int8` / `uint8`, `int16` / `uint16`, `int32` / `uint32`, `int64` / `uint64` |
+|`float` | Float(decimal)|`float32`, `float64` |
+|`string` | Strings|`string` |
+|`bool`| Boolean|`bool`|
+|`complex`|Complex Numbers|`complex`|
+|`byte`| 8-bit non-negative integers|`byte`|
+
+<div align = "center">
+	
+---
+Made by [Sritam Mishra](https://github.com/ENVIRYO2112VIT "View My Profile")
+
+</div>
